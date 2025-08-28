@@ -91,7 +91,7 @@ const Hero = () => {
               <Button 
                 variant="outline" 
                 size="lg" 
-                className="text-lg px-8 py-4 text-white border-white hover:bg-white hover:text-black transition-all duration-300"
+                className="text-lg px-8 py-4 text-white border-2 border-white bg-white/10 backdrop-blur-sm hover:bg-white hover:text-black transition-all duration-300"
                 onClick={scrollToContact}
               >
                 Falar com Especialista
@@ -103,7 +103,8 @@ const Hero = () => {
           <div className="animate-slide-up" style={{animationDelay: '0.2s'}}>
             <div className="relative">
               <div className="bg-gradient-to-br from-white/20 to-white/5 backdrop-blur-lg rounded-3xl p-8 border border-white/30 shadow-hover">
-                <div className="aspect-video bg-black/40 rounded-2xl flex items-center justify-center relative overflow-hidden group cursor-pointer hover:scale-105 transition-transform duration-500">
+                <div className="aspect-video bg-black/40 rounded-2xl flex items-center justify-center relative overflow-hidden group cursor-pointer hover:scale-105 transition-transform duration-500"
+                     onClick={() => window.open('https://www.youtube.com/watch?v=VM8pdky4x8I', '_blank')}>
                   
                   {/* Play Button */}
                   <div className="absolute inset-0 flex items-center justify-center">

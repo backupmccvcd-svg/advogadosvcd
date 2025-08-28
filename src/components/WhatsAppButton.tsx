@@ -8,8 +8,8 @@ interface WhatsAppButtonProps {
 }
 
 const WhatsAppButton = ({ 
-  phone = "5511999999999", 
-  message = "Olá! Gostaria de saber mais sobre as soluções de tráfego digital da Você Digital.",
+  phone = "5511991077836", 
+  message = "Olá, vim do site e gostaria de saber mais informações",
   className = "" 
 }: WhatsAppButtonProps) => {
   const whatsappUrl = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
@@ -40,7 +40,7 @@ const WhatsAppButton = ({
         variant="outline"
         size="lg"
         className="rounded-full w-14 h-14 border-2 border-gray-300 bg-white hover:bg-gray-50 shadow-card group"
-        onClick={() => window.open('tel:+5511999999999', '_self')}
+        onClick={() => window.open('tel:+5511991077836', '_self')}
         aria-label="Ligar agora"
       >
         <Phone className="w-6 h-6 text-gray-600 group-hover:text-primary transition-colors" />

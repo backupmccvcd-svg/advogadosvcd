@@ -34,7 +34,7 @@ const Header = () => {
           <Button 
             variant="cta" 
             onClick={scrollToContact}
-            className="hidden sm:inline-flex"
+            className="hidden sm:inline-flex shadow-brand"
           >
             Falar Agora
           </Button>
