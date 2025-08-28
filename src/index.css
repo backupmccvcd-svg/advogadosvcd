@@ -8,7 +8,7 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Voz Digital Brand Colors - Primary Yellow #FFB500 */
+    /* Você Digital Brand Colors - Primary Yellow #FFB500 */
     --background: 0 0% 100%;
     --foreground: 0 0% 0%;
 
@@ -38,24 +38,29 @@ All colors MUST be HSL.
     --input: 0 0% 90%;
     --ring: 45 100% 50%;
 
-    --radius: 0.75rem;
+    --radius: 1rem;
 
     /* Custom Brand Colors */
     --brand-yellow: 45 100% 50%;
     --brand-black: 0 0% 0%;
     --brand-white: 0 0% 100%;
+    --brand-gray: 0 0% 95%;
     
-    /* Gradients */
+    /* Enhanced Gradients */
     --gradient-hero: linear-gradient(135deg, hsl(var(--brand-yellow)), hsl(45 100% 60%));
-    --gradient-card: linear-gradient(180deg, hsl(var(--brand-white)), hsl(0 0% 98%));
+    --gradient-card: linear-gradient(145deg, hsl(var(--brand-white)), hsl(0 0% 98%));
+    --gradient-accent: linear-gradient(90deg, hsl(var(--brand-yellow)), hsl(50 100% 55%));
+    --gradient-dark: linear-gradient(135deg, hsl(var(--brand-black)), hsl(0 0% 20%));
     
-    /* Shadows */
-    --shadow-brand: 0 10px 30px -5px hsl(var(--brand-yellow) / 0.3);
-    --shadow-card: 0 4px 20px -2px hsl(var(--brand-black) / 0.1);
+    /* Enhanced Shadows */
+    --shadow-brand: 0 20px 60px -10px hsl(var(--brand-yellow) / 0.4);
+    --shadow-card: 0 8px 30px -4px hsl(var(--brand-black) / 0.15);
+    --shadow-hover: 0 25px 80px -15px hsl(var(--brand-yellow) / 0.6);
     
     /* Animations */
-    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    --transition-bounce: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    --transition-spring: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 
     --sidebar-background: 0 0% 98%;
 

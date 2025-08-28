@@ -11,12 +11,12 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo Placeholder */}
           <div className="flex items-center">
-            <div className="w-12 h-12 bg-gradient-hero rounded-lg flex items-center justify-center mr-3">
+            <div className="w-12 h-12 bg-gradient-hero rounded-xl flex items-center justify-center mr-3 shadow-brand">
               <span className="text-black font-black text-lg">VD</span>
             </div>
             <div>
-              <h1 className="font-black text-xl">Voz Digital</h1>
-              <p className="text-xs text-muted-foreground">Propaganda</p>
+              <h1 className="font-black text-xl">Você Digital</h1>
+              <p className="text-xs text-muted-foreground font-semibold">Propaganda</p>
             </div>
           </div>
 

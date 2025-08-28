@@ -11,12 +11,12 @@ const Footer = () => {
           {/* Company Info */}
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center mb-6">
-              <div className="w-12 h-12 bg-gradient-hero rounded-lg flex items-center justify-center mr-3">
+              <div className="w-12 h-12 bg-gradient-hero rounded-xl flex items-center justify-center mr-3 shadow-brand">
                 <span className="text-black font-black text-lg">VD</span>
               </div>
               <div>
-                <h3 className="font-black text-xl">Voz Digital</h3>
-                <p className="text-sm text-gray-400">Propaganda</p>
+                <h3 className="font-black text-xl">Você Digital</h3>
+                <p className="text-sm text-gray-400 font-semibold">Propaganda</p>
               </div>
             </div>
             <p className="text-gray-300 mb-6 max-w-md">
@@ -89,7 +89,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
-          <p>&copy; {currentYear} Voz Digital Propaganda. Todos os direitos reservados.</p>
+          <p>&copy; {currentYear} Você Digital Propaganda. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>

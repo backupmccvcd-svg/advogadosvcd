@@ -66,7 +66,8 @@ export default {
 				brand: {
 					yellow: 'hsl(var(--brand-yellow))',
 					black: 'hsl(var(--brand-black))',
-					white: 'hsl(var(--brand-white))'
+					white: 'hsl(var(--brand-white))',
+					gray: 'hsl(var(--brand-gray))'
 				}
 			},
 			fontFamily: {
@@ -75,14 +76,33 @@ export default {
 			backgroundImage: {
 				'gradient-hero': 'var(--gradient-hero)',
 				'gradient-card': 'var(--gradient-card)',
+				'gradient-accent': 'var(--gradient-accent)',
+				'gradient-dark': 'var(--gradient-dark)',
 			},
 			boxShadow: {
 				'brand': 'var(--shadow-brand)',
 				'card': 'var(--shadow-card)',
+				'hover': 'var(--shadow-hover)',
 			},
 			transitionTimingFunction: {
 				'smooth': 'var(--transition-smooth)',
 				'bounce': 'var(--transition-bounce)',
+				'spring': 'var(--transition-spring)',
+			},
+			animation: {
+				'float': 'float 3s ease-in-out infinite',
+				'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+				'slide-up': 'slideUp 0.6s ease-out',
+			},
+			keyframes: {
+				float: {
+					'0%, 100%': { transform: 'translateY(0px)' },
+					'50%': { transform: 'translateY(-10px)' }
+				},
+				slideUp: {
+					'from': { opacity: '0', transform: 'translateY(30px)' },
+					'to': { opacity: '1', transform: 'translateY(0)' }
+				}
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
